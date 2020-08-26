@@ -1,0 +1,10 @@
+<h1>IPアドレス</h1>
+<br />
+<p>API実行：{{ipadr.requestStatus}}</p>
+<p>クライアントIP：{{ipadr.remoteIp}}</p>
+<p>Header（X-Forwarded-For）：{{ipadr.forwardedFor}}</p>
+<p>Header（X-Forwarded-Host）：{{ipadr.forwardedHost}}</p>
+<p>Header（X-Forwarded-Proto）：{{ipadr.forwardedProto}}</p>
+
+<button (click)="getIpadr()">IP取得</button>
+<button (click)="test()">tst</button>
